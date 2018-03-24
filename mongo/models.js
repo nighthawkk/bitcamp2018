@@ -10,7 +10,7 @@ const dbName = 'hackeamdb';
 var usersCollection,formData,fundGenerator,mentorRequest = null;
 
 // Use connect method to connect to the server
-MongoClient.connect(mlabURI, function(err, client) {
+MongoClient.connect('mongodb://Nighthawk:Aman1122@ds223019.mlab.com:23019/hackeamdb', function(err, client) {
   assert.equal(null, err);
   console.log("Connected successfully to server");
 
