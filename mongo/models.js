@@ -5,12 +5,12 @@ const database = require('../config').DB;
 // Connection URL
 //const url = 'mongodb://localhost:27017';
 // Database Name
-const dbName = 'hackeamdb';
+const dbName = 'bitcamp';
 
 var usersCollection,formData,fundGenerator,mentorRequest = null;
 
 // Use connect method to connect to the server
-MongoClient.connect('mongodb://Nighthawk:Aman1122@ds223019.mlab.com:23019/hackeamdb', function(err, client) {
+MongoClient.connect('mongodb://shivam:hello123@ds223509.mlab.com:23509/bitcamp', function(err, client) {
   assert.equal(null, err);
   console.log("Connected successfully to server");
 
