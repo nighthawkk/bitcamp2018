@@ -1,0 +1,24 @@
+{
+  "name": "bitcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git"
+   
+  },
+  "author": "Shivam Phutela",
+  "license": "ISC",
+ 
+
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "phantomjs": "^2.1.7",
+    "scraperjs": "^1.2.0"
+  }
+}
