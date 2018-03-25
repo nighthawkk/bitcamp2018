@@ -3,7 +3,12 @@ const path = require('path');
 const user =require('../mongo/models').models.users;
 
 route.get('/', (req,res) => {
+
 	res.sendFile(path.join(__dirname,'../frontendWorks/HTMLfiles/signIn.html'));
+});
+route.get('/redirect', (req,res) => {
+
+	res.sendFile(path.join(__dirname,'../frontendWorks/HTMLfiles/dashboard.html'));
 });
 
 route.post('/signIn', (req,res) => {
