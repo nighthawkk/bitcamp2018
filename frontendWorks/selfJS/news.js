@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	
-	const newsArray = [{"url":"http://www.womeninsport.org/news/", "params" : ".news__summary"}]
+	const newsArray = [{"url":"http://www.ddca.in/", "params" : "marquee"}]
 		// {"url":"http://www.cricbuzz.com/cricket-news", "params" : ".cb-nws-hdln-ancr"}];
 	
 	$('#fetchNews').click(function () {
